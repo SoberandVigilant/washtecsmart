@@ -32,3 +32,25 @@ a:hover {
 .p-15 {
     padding: 15px;
 }
+
+.scroll .page-header {
+    background: var(--orange);
+}
+
+.page-header {
+    transition:  0.5s ease-in-out;
+}
+
+.page-header .navbar{
+    padding: 1rem 0;
+}
+
+.page-header .navbar-toggler {
+    border-color: var(--white);
+}
+
+@media screen and (max-width: 991px) {
+    .page-header{
+        background: var(--orange);
+    }
+}
