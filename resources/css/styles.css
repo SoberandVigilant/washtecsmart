@@ -1,0 +1,34 @@
+:root{
+    --orange:#faaf40;
+    --blue:#0070bb;
+    --lightblue:#29abe1;
+}
+
+a,
+a:hover {
+    color:inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-lightblue {
+    background: var(--lightblue);
+}
+
+.bg-orange {
+    color: var(--orange);
+}
+
+.container-fluid-max {
+    max-width: 1440px;
+}
+
+.cover {
+    background: no-repeat center/cover;
+}
+
+.p-15 {
+    padding: 15px;
+}
